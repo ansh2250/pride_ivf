@@ -1,0 +1,17 @@
+:root{
+    --primaryColor:#F12B80;
+    --secondryColor:#20305D;
+    --footerColor:#0C131B;
+    --yellow:#feda00;
+    --white:#fff;
+    --black:#000;
+}
+
+body{
+    overflow-x: hidden;
+    font-family:poppins;
+}
+
+#main{
+    overflow-x:hidden;
+}

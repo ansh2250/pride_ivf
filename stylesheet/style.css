@@ -1,0 +1,842 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PrideDelhi best fertility clinic in delhi [Request a Call] start  */
+
+/* Container Styling */
+.PrideDelhi {
+    padding: 40px 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Section Heading */
+.PrideDelhi h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.PrideDelhi h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color:var(--primaryColor);
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.PrideDelhi span{
+    color:var(--secondryColor);
+}
+
+@media (max-width: 768px) {
+    .PrideDelhi h2 {
+        font-size: 28px;
+    }
+}
+
+/* Title Paragraph */
+.PrideDelhi .title {
+    font-size: 18px;
+    font-weight: 600;
+    color:var(--black);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Information Paragraphs */
+.PrideDelhi .info {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .PrideDelhi .info {
+        font-size: 14px;
+    }
+}
+
+/* Button Styling */
+.PrideDelhi .callRequesBtn {
+    background-color:var(--primaryColor); /* Brand color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.PrideDelhi .callRequesBtn:hover {
+    background-color:var(--primaryColor);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .PrideDelhi .callRequesBtn {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+}
+
+/*PrideDelhi best fertility clinic in delhi [Request a Call] end  */
+
+/*seman analsis images start */
+.seman{
+    border-radius:15px;
+}
+.seman img{
+    border-radius:15px;
+    box-shadow:1px 1px 2px 2px rgba(2, 2, 54, 0.247);
+
+}
+/*seman analsis images end */
+
+/* Counter Section start */
+.counter-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.counter-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.counter-section .space-sec {
+    margin-bottom: 30px;
+}
+
+.counterimagewrapper img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.countertextwrapper {
+    text-align: center;
+}
+
+.countertextwrapper h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.countertextwrapper h4 span {
+    font-size: 18px;
+    font-weight: normal;
+    color:var(--primaryColor);
+}
+
+.countertextwrapper .subtext {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .counter-section {
+        padding: 40px 15px;
+    }
+
+    .counterimagewrapper img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .countertextwrapper h4 {
+        font-size: 28px;
+    }
+
+    .countertextwrapper .subtext {
+        font-size: 14px;
+    }
+}
+
+/* counter section end */
+
+/* treatment start */
+/* Base styles (Desktop by default) */
+.my-swiper {
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-card {
+    position: relative;
+    border-radius: 12px;
+    min-height: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.swiper-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.swiper-card-content {
+    padding: 16px;
+}
+
+.swiper-card-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primaryColor);
+    margin-bottom: 8px;
+}
+
+.swiper-card-detail {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.swiper-card-content .treatmentBtn {
+    background-color: var(--primaryColor);
+    color: var(--white);
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.swiper-card-content .treatmentBtn:hover {
+    background-color: var(--secondryColor);
+    transition: 0.5s ease;
+}
+
+/* Navigation Buttons */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #007bff;
+}
+
+/* Responsive styles */
+/* For tablets (768px and below) */
+@media (max-width: 768px) {
+    .swiper-card {
+        min-height: 250px;
+    }
+
+    .swiper-card-heading {
+        font-size: 14px;
+    }
+
+    .swiper-card-detail {
+        font-size: 12px;
+    }
+
+    .swiper-card-content {
+        padding: 12px;
+    }
+
+    .swiper-card-content .treatmentBtn {
+        padding: 4px 16px;
+        font-size: 14px;
+    }
+}
+
+/* For mobile phones (576px and below) */
+@media (max-width: 576px) {
+    .swiper-card {
+        min-height: 200px;
+    }
+
+    .swiper-card-heading {
+        font-size: 12px;
+    }
+
+    .swiper-card-detail {
+        font-size: 10px;
+    }
+
+    .swiper-card-content {
+        padding: 8px;
+    }
+
+    .swiper-card-content .treatmentBtn {
+        padding: 3px 12px;
+        font-size: 12px;
+    }
+}
+
+
+/* treatment end */
+
+/* Meet Dr. Nidhi Sharma start */
+.meet-doc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Enables wrapping for smaller screens */
+    gap: 20px;
+    padding: 30px 15px;
+    background-color: #f9f9f9; /* Optional: Add a subtle background color */
+}
+
+.meet-doc h4 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.meet-doc h4:hover {
+    background-color: var(--primaryColor);
+    color: var(--white);
+    transition: 0.3s ease;
+}
+
+.meet-doc h3 {
+    color: var(--primaryColor);
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px !important;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.meet-doc .trust {
+    color: var(--secondryColor);
+    font-weight: 700;
+}
+
+.bio-text {
+    overflow: hidden;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 14px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.meet-doc .hidden-text {
+    display: none;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 14px;
+    color: var(--black);
+}
+
+#readMoreBtn {
+    margin-top: 15px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    border: none;
+    padding: 2px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#readMoreBtn:hover {
+    background-color: var(--secondryColor);
+}
+
+.meet-doc img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .meet-doc {
+        flex-wrap: nowrap; /* Prevent wrapping on medium screens and above */
+        gap: 30px;
+        padding: 50px;
+    }
+
+    .meet-doc h3 {
+        font-size: 16px;
+    }
+
+    .meet-doc h4{
+        font-family:12px;
+        
+    }
+    .bio-text,
+    .meet-doc .hidden-text {
+        font-size: 16px;
+    }
+
+    #readMoreBtn {
+        font-size: 12px;
+        padding: 2px 4px;
+    }
+}
+
+/* Meet Dr. Nidhi Sharma end */
+    
+    /* our services */
+    .our-services {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        background-color: #202020;
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+    
+    .our-services button {
+        width: 200px;
+        border-radius: 10px;
+        border: 2px solid var(--primaryColor);
+        background-color: #202020;
+        color: var(--primaryColor);
+        padding: 5px 35px;
+        box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .our-services button:hover {
+        border: 2px solid var(--white);
+        color: var(--white);
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    
+    .our-services h2 {
+        color: var(--white);
+        font-family: Poppins, sans-serif;
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 1.4;
+    }
+    
+    .our-services p {
+        color: var(--text-light);
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align:justify;
+    }
+    
+    .our-services span {
+        color: var(--primaryColor);
+    }
+    
+    .our-services-parent {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 15px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .our-services-child {
+        background-color: #202020;
+        width: 23%;
+        max-width: 283px;
+        border-radius: 14px 14px 0 0;
+        height: 240px;
+        padding: 25px;
+        box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        flex-shrink: 0;
+    }
+
+    @media (max-width: 768px) {
+        .our-services-parent {
+            gap: 20px;
+            flex-wrap: nowrap;
+        }
+
+        .our-services-child {
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .our-services-parent {
+            gap: 10px;
+        }
+
+    .our-services-child {
+        width: 60%;
+    }
+}
+
+    /*  Our Services end  */
+
+    /* enquiry form start */
+    .form-container {
+        background:var(--white);
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 3rem auto;
+        max-width: 800px;
+      }
+      .form-title {
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #333;
+      }
+      .form-title span {
+        color: var(--primaryColor);
+      }
+      .form-control:focus {
+        border-color:var(--primaryColor);
+        box-shadow: 0 0 5px rgba(233, 30, 99, 0.5);
+      }
+      .btn-primary {
+        background-color:var(--primaryColor);
+        border: none;
+      }
+      .btn-primary:hover {
+        background-color:var(--secondryColor);
+        color:var(--white);
+        transition:0.5s ease;
+      }
+      .contact-icons {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+      }
+      .contact-icons a {
+        display: block;
+        margin-bottom: 10px;
+        color: var(--white);
+        width: 50px;
+        height: 50px;
+        background: var(--primaryColor);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+      }
+      .contact-icons a:hover {
+        background:var(--secondryColor);
+      }
+    /* enquiry form end */
+
+
+    /* our testimonal start */
+
+    /* this is swiper you will get code of  this part in our treatment secdion wihich is in above */
+
+    /* our testimonial end */
+
+    /* IVF & Fertility Centre start*/
+    .FertilityCenter{
+        width:100%;
+        height:60vh;
+        max-width:900px;
+        margin:auto;
+        background-color:var(--secondryColor);
+        color:var(--white);
+        border-radius:25px;
+        text-align: center;
+    }
+
+    .FertilityCenter h3{
+        font-family:poppins;
+        font-size:30px;
+        font-weight:700;
+        color:var(--yellow);
+    }
+
+    .FertilityCenter p{
+        font-size:14px;
+        color:var(--white);
+        text-align: justify;
+    }
+
+    .FertilityCenter .bookAppointmentBtn{
+        background-color:var(--primaryColor);
+        color:var(--white);
+        padding:5px 15px;
+        border:none;
+        outline:none;
+        border-radius:10px;
+    }
+    .FertilityCenter .bookAppointmentBtn:hover{
+        background-color:var(--white);
+        color:var(--primaryColor);
+        transition: 0.5s ease;
+
+    }
+    /* IVF & Fertility Centre end*/
+
+
+      /* Who Are WE Start */
+      /* The css of this part you will get in above in PrideDelhi best fertility clinic in delhi [Request a Call] start   */
+      /* Who Are WE End */
+
+      
+      /*  Why is Pride IVF One of The Best Fertility Clinics In Delhi? Start */
+      .accordion h2 {
+        font-family:poppins;
+        font-size:32p;
+        font-weight:700;
+        padding:12px;
+        color: var(--primaryColor);
+    }
+
+    .accordion-item {
+
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+    
+    .accordion-button {
+        color:#202020;
+        border: none;
+        border-radius: 8px 8px 0 0;
+        font-weight: bold;
+    }
+    
+    .accordion-button:not(.collapsed) {
+        background-color:var(--white);
+        color: var(--black);
+    }
+
+    #heading-one{
+        color:var(--black);
+    }
+      /*  Why is Pride IVF One of The Best Fertility Clinics In Delhi? End */
+
+
+      /*  Centered Button for FAQ Modal Start */
+      .modal-content {
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            background-color:var(--white);
+        }
+        
+    /* Modal Header */
+    .modal-header {
+        background-color:var(--primaryColor);
+        color:var(--white);
+        border-bottom: 2px solid #fff;
+        border-radius: 8px 8px 0 0;
+        padding: 20px;
+    }
+    
+    .modal-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 0;
+    }
+    
+    /* Close Button */
+    .btn-close {
+        background-color: #fff;
+        color:var(--primaryColor);
+        font-size: 1.2rem;
+        border-radius: 50%;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Modal Body */
+    .modal-body {
+        padding: 30px;
+        background-color:var(--white);
+    }
+    
+    .faq-item {
+        margin-bottom: 20px;
+        background-color:var(--white);
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .faq-item h5 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color:#202020;
+        margin-bottom: 10px;
+    }
+    
+    .faq-item p {
+        font-size: 1rem;
+        color:#202020;
+        line-height: 1.6;
+    }
+    
+    /* Two Column Layout */
+    @media (min-width: 768px) {
+        .faq-item {
+        padding: 20px;
+        }
+    }
+    
+    /* Modal Footer */
+    .modal-footer {
+        padding: 15px;
+        background-color:var(--primaryColor); 
+        border-radius: 0 0 8px 8px;
+        border-top: 2px solid #fff;
+    }
+    
+    .modal-footer .btn {
+        background-color:var(--white);
+        color: var(--primaryColor);
+        font-weight: 600;
+        border-radius: 50px;
+        padding: 10px 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .modal-footer .btn:hover {
+        background-color:var(--secondryColor);
+        color:var(--white);
+        transition: background-color 0.3s ease;
+    }
+    
+      /*  Centered Button for FAQ Modal Start */
+
+
+      /* scubscribe to get latest update start */
+    .subscribe-container {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+    .subscribe-title {
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--secondryColor);
+        margin-bottom: 10px;
+    }
+
+
+    .subscribe-subtitle {
+        font-size: 18px;
+        color: #343a40;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .subscribe-form input {
+        width: 80%;
+        max-width: 300px;
+        padding: 12px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .subscribe-form button {
+        background-color:var(--primaryColor);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .subscribe-form button:hover {
+        background-color:var(--primaryColor);
+    }
+
+    /* Error Message Styling */
+    .error-message {
+        color:var(--secondryColor);
+        font-size: 14px;
+        margin-top: 5px;
+        display: none;
+    }
+
+        /* scubscribe to get latest update end */
+
+        /* popup section on loading start */
+        .modal-dialog {
+            max-width: 600px;
+            margin: auto;
+          }
+          .modal-content {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top:100px;
+            padding:10px;
+        
+          }
+          .image-container {
+            width: 100%;
+            height:auto;
+            object-fit: cover;
+     
+          }
+          .btn-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: white;
+            border-radius: 50%;
+            padding: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+          }
+          /* popup section on loading end */
+
+          

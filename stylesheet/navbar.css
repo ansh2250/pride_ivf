@@ -1,0 +1,64 @@
+/* Navbar Styling */
+.navbar {
+    background-color: var(--white);
+}
+
+.navbar .nav-link {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: poppins;
+}
+
+/* Dropdown Menu */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+    max-height: 350px;
+    overflow-y: auto;
+    background-color: var(--white);
+}
+
+.dropdown-menu .dropdown-item {
+    color: var(--secondryColor);
+    font-family: poppins;
+    font-size: 14px;
+}
+
+/* Top Bar Styles */
+.menustick {
+    background-color: var(--primaryColor);
+}
+
+.top-bar {
+    background-color: var(--secondryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.top-bar .topmenu-text {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.top-bar .topmenu-text a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.top-bar .topmenu-text i {
+    margin-right: 8px;
+}
+
+/* Mobile View (Responsive) */
+@media (max-width: 767px) {
+    .top-bar .topmenu-text {
+        font-size: 14px;
+    }
+}
